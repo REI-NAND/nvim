@@ -21,7 +21,7 @@ return {
         lspconfig.lua_ls.setup({})
         lspconfig.tsserver.setup({})
         lspconfig.pyright.setup({})
-        lspconfig.bash-languageserver.setup({})
+       
         
         vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
         vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
